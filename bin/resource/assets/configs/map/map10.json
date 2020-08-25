@@ -1,0 +1,130 @@
+{
+    "skin": "KsLevelScene10.json",
+    "bg": {
+        "type": 1,
+        "ani": {  }
+    },
+    "heipao":{
+        "url":"resource/assets/img/ani/level10/heipao10.sk",
+        "x":-330,
+        "tx":0,
+        "y":700
+    },
+    "long":{
+        "url":"resource/assets/img/ani/level10/long1.sk",
+        "x":900,
+        "tx":0,
+        "y":900
+    },
+    "player": {
+        "url": "resource/assets/img/ani/level10/renwu10.sk",
+        "start": ["10-1", "10-9","10-14"],
+        "status":{
+            "x":0,
+            "y":700,
+            "aniN":"10-3",
+            "loop":true
+        },
+        "x": 0,
+        "y": 700,
+        "ani": {
+            "10-1": {
+                "aniName": "10-1",
+                "next":"10-2"
+            },
+            "10-2": {
+                "aniName": "10-2",
+                "next":"10-3"
+            },
+            "10-3": {
+                "aniName": "10-3",
+                "popTime": 15,
+                "loop": true,
+                "pop": true
+            },
+            "10-4": {
+                "aniName": "10-4",
+                "next":"10-5"
+            },
+            "10-5": {
+                "aniName": "10-5",
+                "isWin": 2
+            },
+            "10-6": {
+                "aniName": "10-6",
+                "next":"10-7"
+            },
+            "10-7": {
+                "aniName": "10-7",
+                "next":"10-8"
+            },
+            "10-8": {
+                "aniName": "10-8",
+                "next":"10-9"
+            },
+            "10-9": {
+                "aniName": "10-9",
+                "popTime": 15,
+                "loop": true,
+                "pop": true
+            },
+            "10-10": {
+                "aniName": "10-10",
+                "isWin": 2
+            },
+            "10-11": {
+                "aniName": "10-11",
+                "next":"10-12"
+            },
+            "10-12": {
+                "aniName": "10-12",
+                "next":"10-13"
+            },
+            "10-13": {
+                "aniName": "10-13",
+                "next":"10-14"
+            },
+            "10-14": {
+                "aniName": "10-14",
+                "popTime": 15,
+                "loop": true,
+                "pop": true
+            },
+            "10-15": {
+                "aniName": "10-15",
+                "isWin": 2
+            },
+            "10-16": {
+                "aniName": "10-16",
+                "next":"10-17"
+            },
+            "10-17": {
+                "aniName": "10-17",
+                "isWin": 1
+            }
+        },
+        "choose": [
+            {
+                "chooseLeftName": "10-4",
+                "chooseRightName": "10-6",
+                "rightName": "10-6",
+                "icon_chooseLeft": "10/icon10_4",
+                "icon_chooseRight": "10/icon10_5"
+            },
+            {
+                "chooseLeftName": "10-11",
+                "chooseRightName": "10-10",
+                "rightName": "10-11",
+                "icon_chooseLeft": "10/icon10_1",
+                "icon_chooseRight": "10/icon10_3"
+            },
+            {
+                "chooseLeftName": "10-15",
+                "chooseRightName": "10-16",
+                "rightName": "10-16",
+                "icon_chooseLeft": "10/icon10_5",
+                "icon_chooseRight": "10/icon10_2"
+            }
+        ]
+    }
+}

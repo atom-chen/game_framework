@@ -1,0 +1,140 @@
+{
+    "skin": "KsLevelScene29.json",
+    "bg": {
+        "type": 1,
+        "move": [
+            {"x":-1080,"t": 1670},
+            {"x":-2160,"t": 2500}
+        ]
+    },
+    "lang": {
+        "url":"resource/assets/img/ani/level29/lang29.sk",
+        "x":1080,
+        "y": 1246
+    },
+    "yanhua": {
+        "url":"resource/assets/img/ani/level29/yanhua29.sk",
+        "x": 2160,
+        "y": 1260,
+        "mx": 2800,
+        "mt": 2400
+    },
+    "yanjing": {
+        "url":"resource/assets/img/ani/level29/yanjing29.sk",
+        "x": 2160,
+        "y": 1200
+    },
+  
+    "player": {
+        "url": "resource/assets/img/ani/level29/renwu29.sk",
+        "start": ["29-1","29-8","29-13"],
+        "status": {
+            "x": 0,
+            "y": 1290,
+            "aniN": "29-8",
+            "loop": true
+        },
+        "x": 0,
+        "y": 1290,
+        "move": [
+            {"x":500,"t": 1670},
+            {"x":0,"t": 1670},
+            {"x":1080,"t": 2500}
+        ],
+        "ani": {
+            "29-1": {
+                "aniName": "29-1",
+                "next":"29-2"
+            },
+            "29-2": {
+                "aniName": "29-2",
+                "next":"29-3"
+            },
+            "29-3": {
+                "aniName": "29-3",
+                "loop": true,
+                "pop": true
+            },
+            "29-4": {
+                "aniName": "29-4",
+                "isWin": 2
+            },
+            "29-5": {
+                "aniName": "29-5",
+                "next":"29-6" 
+            },
+            "29-6": {
+                "aniName": "29-6",
+                "next":"29-8" 
+            },
+            "29-7": {
+                "aniName": "29-7",
+                "next":"29-8"
+            },
+            "29-8": {
+                "aniName": "29-8",
+                "loop": true,
+                "pop": true
+            },
+            "29-9": {
+                "aniName": "29-9",
+                "isWin": 2
+            },
+            "29-10": {
+                "aniName": "29-10",
+                "next":"29-11"
+            },
+            "29-11": {
+                "aniName": "29-11",
+                "next":"29-12"
+            },
+            "29-12": {
+                "aniName": "29-12",
+                "next":"29-13"
+            },
+
+            "29-13":{
+                "aniName": "29-13",
+                "loop": true,
+                "pop": true
+            },
+            "29-14":{
+                "aniName": "29-14",
+                "isWin": 2
+            },
+            
+            "29-15":{
+                "aniName": "29-15",
+                "next":"29-16"
+            },
+
+            "29-16":{
+                "aniName": "29-16",
+                "isWin": 1
+            }
+        },
+        "choose": [
+            {
+                "chooseLeftName": "29-4",
+                "chooseRightName": "29-5",
+                "rightName": "29-5",
+                "icon_chooseLeft": "29/icon29_2",
+                "icon_chooseRight": "29/icon29_1"
+            },
+            {
+                "chooseLeftName": "29-10",
+                "chooseRightName": "29-9",
+                "rightName": "29-10",
+                "icon_chooseLeft": "29/icon29_3",
+                "icon_chooseRight": "29/icon29_4"
+            },
+            {
+                "chooseLeftName": "29-14",
+                "chooseRightName": "29-15",
+                "rightName": "29-15",
+                "icon_chooseLeft": "29/icon29_6",
+                "icon_chooseRight": "29/icon29_5"
+            }
+        ]
+    }
+}

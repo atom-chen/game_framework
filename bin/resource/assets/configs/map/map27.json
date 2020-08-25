@@ -1,0 +1,67 @@
+{
+    "skin": "KsLevelScene27.json",
+    "player": {
+        "url": "resource/assets/img/ani/level27/renwu27.sk",
+        "start": ["27-1","27-6"],
+        "status": {
+            "x": 0,
+            "y": 1270,
+            "aniN": "27-1",
+            "loop": true
+        },
+        "x": 0,
+        "y": 1270,
+        "ani": {
+            "27-1": {
+                "aniName": "27-1",
+                "next":"27-2"
+            },
+            "27-2": {
+                "aniName": "27-2",
+                "loop": true,
+                "pop": true
+            },
+            "27-3": {
+                "aniName": "27-3",
+                "isWin": 2
+            },
+            "27-4": {
+                "aniName": "27-4",
+                "next":"27-5" 
+            },
+            "27-5": {
+                "aniName": "27-5",
+                "next":"27-6" 
+            },
+            "27-6": {
+                "aniName": "27-6",
+                "loop": true,
+                "pop": true
+            },
+            "27-7": {
+                "aniName": "27-7",
+                "isWin": 2
+            },
+            "27-8": {
+                "aniName": "27-8",
+                "isWin": 1
+            }
+        },
+        "choose": [
+            {
+                "chooseLeftName": "27-3",
+                "chooseRightName": "27-4",
+                "rightName": "27-4",
+                "icon_chooseLeft": "27/icon27_1",
+                "icon_chooseRight": "27/icon27_2"
+            },
+            {
+                "chooseLeftName": "27-7",
+                "chooseRightName": "27-8",
+                "rightName": "27-8",
+                "icon_chooseLeft": "27/icon27_3",
+                "icon_chooseRight": "27/icon27_4"
+            }
+        ]
+    }
+}

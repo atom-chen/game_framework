@@ -1,0 +1,4 @@
+{
+  "code": "var Utils = (function () {\r\n    function Utils() {\r\n    }\r\n    Utils.objToParams = function (obj) {\r\n        if (obj == null)\r\n            return '';\r\n        var arr = [];\r\n        for (var key in obj) {\r\n            arr.push(key + '=' + obj[key]);\r\n        }\r\n        var str = arr.join('&');\r\n        arr = null;\r\n        return str;\r\n    };\r\n    return Utils;\r\n}());\r\nexport default Utils;\r\n",
+  "references": []
+}

@@ -1,0 +1,4 @@
+{
+  "code": "import * as tslib_1 from \"tslib\";\r\nvar CustemButton = (function (_super) {\r\n    tslib_1.__extends(CustemButton, _super);\r\n    function CustemButton() {\r\n        return _super.call(this) || this;\r\n    }\r\n    return CustemButton;\r\n}(CustomScaleComponent));\r\nexport default CustemButton;\r\n",
+  "references": []
+}

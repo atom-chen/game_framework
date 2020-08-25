@@ -1,0 +1,103 @@
+{
+    "skin": "KsLevelScene6.json",
+    "cg": {
+        "type": 1,
+        "ani": {
+            "url": "resource/assets/img/ani/level6/changjing.sk"
+        },
+        "x":0,
+        "y":1240
+    },
+    "hd": {
+        "type": 1,
+        "ani": {
+            "url": "resource/assets/img/ani/level6/huaidan.sk"
+        },
+        "x":2760,
+        "y":1240
+    },
+    "player": {
+        "url": "resource/assets/img/ani/level6/renwu.sk",
+        "start": [
+            "6-1",
+            "6-4",
+            "6-7"
+        ],
+        "status":{
+            "x":0,
+            "y":750,
+            "aniN":"6-1",
+            "loop":true
+        },
+        "x":0,
+        "y":750,
+        "tx1":-500,
+        "tx2":-550,
+        "tx3":500,
+        "ani": {
+            "6-1": {
+                "aniName": "6-1",
+                "loop": true,
+                "pop": true
+            },
+            "6-2": {
+                "aniName": "6-2",
+                "isWin": 2
+            },
+            "6-3": {
+                "aniName": "6-3",
+                "next": "6-4"
+            },
+            "6-4": {
+                "aniName": "6-4",
+                "loop": true,
+                "pop": true
+            },
+            "6-5": {
+                "aniName": "6-5",
+                "isWin": 2
+            },
+            "6-6": {
+                "aniName": "6-6",
+                "next": "6-7"
+            },
+            "6-7": {
+                "aniName": "6-7",
+                "loop": false,
+                "pop": true
+            },
+            "6-8": {
+                "aniName": "6-8",
+                "isWin": 2
+            },
+
+            "6-9": {
+                "aniName": "6-9",
+                "isWin": 1
+            }
+        },
+        "choose": [
+            {
+                "chooseLeftName": "6-2",
+                "chooseRightName": "6-3",
+                "rightName": "6-3",
+                "icon_chooseLeft": "06/icon6_1",
+                "icon_chooseRight": "06/icon6_3"
+            },
+            {
+                "chooseLeftName": "6-6",
+                "chooseRightName": "6-5",
+                "rightName": "6-6",
+                "icon_chooseLeft": "06/icon6_5",
+                "icon_chooseRight": "06/icon6_4"
+            },
+            {
+                "chooseLeftName": "6-8",
+                "chooseRightName": "6-9",
+                "rightName": "6-9",
+                "icon_chooseLeft": "06/icon6_2",
+                "icon_chooseRight": "06/icon6_6"
+            }
+        ]
+    }
+}

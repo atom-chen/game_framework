@@ -1,0 +1,38 @@
+{
+    "skin": "KsLevelScene2.json",
+    "player": {
+        "url": "resource/assets/img/ani/level2/renwu2.sk",
+        "start": ["2-1"],
+        "status":{
+            "x":0,
+            "y":500,
+            "aniN":"2-1",
+            "loop":true
+        },
+        "x": 0,
+        "y": 500,
+        "ani": {
+            "2-1": {
+                "aniName": "2-1",
+                "loop": true,
+                "pop": true
+            },
+            "2-2": {
+                "aniName": "2-2",
+                "isWin": 2
+            },
+            "2-3": {
+                "aniName": "2-3",
+                "isWin": 1
+            }
+        },
+        "choose":[ {
+            "chooseLeftName": "2-2",
+            "chooseRightName": "2-3",
+            "rightName": "2-3",
+            "icon_chooseLeft": "02/icon2_2",
+            "icon_chooseRight": "02/icon2_1"
+        }
+    ]
+    }
+}

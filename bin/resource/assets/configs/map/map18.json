@@ -1,0 +1,122 @@
+{
+    "skin": "KsLevelScene18.json",
+    
+    "mifeng":{
+        "url":"resource/assets/img/ani/level18/mifeng.sk",
+        "x":1080,
+        "y":650
+    },
+    "xiongmao":{
+        "url":"resource/assets/img/ani/level18/xiongmao.sk",
+        "x":2160,
+        "y":650
+    }, 
+
+    "player": {
+        "url": "resource/assets/img/ani/level18/renwu18.sk",
+        "start": ["18-1","18-8","18-13"],
+        "status":{
+            "x":0,
+            "y":650,
+            "aniN":"18-1",
+            "loop":true
+        },
+        "x": 0,
+        "y": 650,
+        "tx":1000,
+        "ani": {
+            "18-1": {
+                "aniName": "18-1",
+                "next":"18-2"
+            },
+            "18-2": {
+                "aniName": "18-2",
+                "next":"18-3"
+            },
+            "18-3": {
+                "aniName": "18-3",
+                "loop": true,
+                "pop": true
+            },
+            "18-4": {
+                "aniName": "18-4",
+                "isWin": 2
+            },
+            "18-5": {
+                "aniName": "18-5",
+                "next":"18-6" 
+            },
+            "18-6": {
+                "aniName": "18-6",
+                "next":"18-7"
+            },
+            "18-7": {
+                "aniName": "18-7",
+                "next":"18-8"
+            },
+            "18-8": {
+                "aniName": "18-8",
+                "loop": true,
+                "pop": true
+            },
+            "18-9": {
+                "aniName": "18-9",
+                "isWin": 2
+            },
+            "18-10": {
+                "aniName": "18-10",
+                "next":"18-11"
+            },
+            "18-11": {
+                "aniName": "18-11",
+                "next":"18-12"
+            },
+            "18-12": {
+                "aniName": "18-12",
+                "next":"18-13"
+            },
+            "18-13": {
+                "aniName": "18-13",
+                "loop": true,
+                "pop": true
+            },
+            "18-14": {
+                "aniName": "18-14",
+                "isWin": 2
+            },
+
+            "18-15": {
+                "aniName": "18-15",
+                "next":"18-16"
+            },
+
+            "18-16": {
+                "aniName": "18-16",
+                "isWin": 1
+            }
+        },
+        "choose": [
+            {
+                "chooseLeftName": "18-4",
+                "chooseRightName": "18-5",
+                "rightName": "18-5",
+                "icon_chooseLeft": "18/icon18_1",
+                "icon_chooseRight": "18/icon18_2"
+            },
+            {
+                "chooseLeftName": "18-10",
+                "chooseRightName": "18-9",
+                "rightName": "18-10",
+                "icon_chooseLeft": "18/icon18_3",
+                "icon_chooseRight": "18/icon18_4"
+            },
+            {
+                "chooseLeftName": "18-14",
+                "chooseRightName": "18-15",
+                "rightName": "18-15",
+                "icon_chooseLeft": "18/icon18_5",
+                "icon_chooseRight": "18/icon18_6"
+            }
+        ]
+    }
+}

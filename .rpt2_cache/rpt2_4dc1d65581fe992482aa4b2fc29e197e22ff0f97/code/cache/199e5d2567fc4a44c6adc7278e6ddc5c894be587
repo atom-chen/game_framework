@@ -1,0 +1,4 @@
+{
+  "code": "var SoundConst = (function () {\r\n    function SoundConst() {\r\n    }\r\n    SoundConst.getKeyUrl = function (key) {\r\n        return SoundConst.perfix + key + SoundConst.sufix;\r\n    };\r\n    SoundConst.Bgm = \"bgm\";\r\n    SoundConst.Btn_1 = \"btn_1\";\r\n    SoundConst.perfix = \"resource/assets/sounds/\";\r\n    SoundConst.sufix = \".mp3\";\r\n    return SoundConst;\r\n}());\r\nexport default SoundConst;\r\n",
+  "references": []
+}

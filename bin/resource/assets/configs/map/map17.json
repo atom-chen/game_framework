@@ -1,0 +1,66 @@
+{
+    "skin": "KsLevelScene17.json",
+    
+    
+    "player": {
+        "url": "resource/assets/img/ani/level17/renwu17.sk",
+        "start": ["17-1","17-4"],
+        "status":{
+            "x":0,
+            "y":700,
+            "aniN":"17-1",
+            "loop":true
+        },
+        "x": 0,
+        "y": 700,
+        "tx":1000,
+        "ani": {
+            "17-1": {
+                "aniName": "17-1",
+                "loop": true,
+                "pop": true
+            },
+            "17-2": {
+                "aniName": "17-2",
+                "isWin": 2
+            },
+            "17-3": {
+                "aniName": "17-3",
+                "next":"17-4"
+            },
+            "17-4": {
+                "aniName": "17-4",
+                "next":"17-5"
+            },
+            "17-5": {
+                "aniName": "17-5",
+                "loop": true,
+                "pop": true
+            },
+            "17-6": {
+                "aniName": "17-6",
+                "isWin": 1
+            },
+            "17-7": {
+                "aniName": "17-7",
+                "isWin": 2
+            }
+        },
+        "choose": [
+            {
+                "chooseLeftName": "17-2",
+                "chooseRightName": "17-3",
+                "rightName": "17-3",
+                "icon_chooseLeft": "17/icon17_1",
+                "icon_chooseRight": "17/icon17_2"
+            },
+            {
+                "chooseLeftName": "17-6",
+                "chooseRightName": "17-7",
+                "rightName": "17-6",
+                "icon_chooseLeft": "17/icon17_1",
+                "icon_chooseRight": "17/icon17_2"
+            }
+        ]
+    }
+}

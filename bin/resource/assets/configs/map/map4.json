@@ -1,0 +1,79 @@
+{
+    "skin": "KsLevelScene4.json",
+    "bg": {
+        "type": 1
+    },
+    "bean": {
+        "url": "resource/assets/img/ani/level4/tengwan.sk",
+        "x": 100,
+        "y": 1200
+    },
+    "door": {
+        "url": "resource/assets/img/ani/level4/changjing.sk",
+        "x": 1080,
+        "y": 1200
+    },
+    "player": {
+        "url": "resource/assets/img/ani/level4/renwu.sk",
+        "start": [
+            "4-1",
+            "4-4"
+        ],
+        "status":{
+            "x":80,
+            "y":700,
+            "aniN":"4-1",
+            "loop":true
+        },
+        "x": 80,
+        "y": 700,
+        "ani": {
+            "4-1": {
+                "aniName": "4-1",
+                "loop": true,
+                "pop": true
+            },
+            "4-2": {
+                "aniName": "4-2",
+                "pop": false,
+                "isWin": 2
+            },
+            "4-3": {
+                "aniName": "4-3",
+                "pop": false,
+                "next": "4-4"
+            },
+            "4-4": {
+                "aniName": "4-4",
+                "loop": true,
+                "pop": true
+            },
+            "4-5": {
+                "aniName": "4-5",
+                "pop": false,
+                "isWin": 2
+            },
+            "4-6": {
+                "aniName": "4-6",
+                "pop": false,
+                "isWin": 1
+            }
+        },
+        "choose": [
+            {
+                "chooseLeftName": "4-2",
+                "chooseRightName": "4-3",
+                "rightName": "4-3",
+                "icon_chooseLeft": "04/icon4_2",
+                "icon_chooseRight": "04/icon4_3"
+            },
+            {
+                "chooseLeftName": "4-6",
+                "chooseRightName": "4-5",
+                "rightName": "4-6",
+                "icon_chooseLeft": "04/icon4_1",
+                "icon_chooseRight": "04/icon4_4"
+            }
+        ]
+    }
+}

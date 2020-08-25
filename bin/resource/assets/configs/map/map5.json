@@ -1,0 +1,129 @@
+{
+    "skin": "KsLevelScene5.json",
+    "bg": {
+        "type": 1,
+        "ani": {}
+    },
+    "gou": {
+        "url": "resource/assets/img/ani/level5/gou5.sk",
+        "x": 0,
+        "y": 1225
+    },
+    "heiping": {
+        "url": "resource/assets/img/ani/level5/heiping5.sk",
+        "x": 1080,
+        "y": 1249
+    },
+    "men": {
+        "url": "resource/assets/img/ani/level5/men5.sk",
+        "x": 2145,
+        "y": 1215
+    },
+    "player": {
+        "url": "resource/assets/img/ani/level5/renwu5.sk",
+        "start": [
+            "5-1",
+            "5-6",
+            "5-12"
+        ],
+        "status":{
+            "x":0,
+            "y":700,
+            "aniN":"5-2",
+            "loop":true
+        },
+        "x": 0,
+        "y": 700,
+        "ani": {
+            "5-1": {
+                "aniName": "5-1",
+                "loop": true,
+                "next": "5-2"
+            },
+            "5-2": {
+                "aniName": "5-2",
+                "popTime": 5,
+                "loop": true,
+                "pop": true
+            },
+            "5-3": {
+                "aniName": "5-3",
+                "isWin": 2
+            },
+            "5-4": {
+                "aniName": "5-4",
+                "next": "5-5"
+            },
+            "5-5": {
+                "aniName": "5-5",
+                "next": "5-6"
+            },
+            "5-6": {
+                "aniName": "5-6",
+                "loop": true,
+                "pop": true
+            },
+            "5-7": {
+                "aniName": "5-7",
+                "isWin": 2
+            },
+            "5-8": {
+                "aniName": "5-8",
+                "next": "5-9"
+            },
+            "5-9": {
+                "aniName": "5-9",
+                "next": "5-10"
+            },
+            "5-10": {
+                "aniName": "5-10",
+                "next": "5-11"
+            },
+            "5-11": {
+                "aniName": "5-11",
+                "next": "5-12"
+            },
+            "5-12": {
+                "aniName": "5-12",
+                "popTime": 2,
+                "loop": true,
+                "pop": true
+            },
+            "5-13": {
+                "aniName": "5-13",
+                "isWin": 2
+            },
+            "5-14": {
+                "aniName": "5-14",
+                "next": "5-15"
+            },
+            "5-15": {
+                "aniName": "5-15",
+                "isWin": 1
+            }
+        },
+        "choose": [
+            {
+                "chooseLeftName": "5-3",
+                "chooseRightName": "5-4",
+                "rightName": "5-4",
+                "icon_chooseLeft": "05/icon5_1",
+                "icon_chooseRight": "05/icon5_2"
+            },
+            {
+                "chooseLeftName": "5-7",
+                "chooseRightName": "5-8",
+                "rightName": "5-8",
+                "icon_chooseLeft": "05/icon5_3",
+                "icon_chooseRight": "05/icon5_6"
+            },
+            {
+                "chooseLeftName": "5-13",
+                "chooseRightName": "5-14",
+                "rightName": "5-14",
+                "icon_chooseLeft": "05/icon5_4",
+                "icon_chooseRight": "05/icon5_5"
+            }
+        ]
+    }
+}

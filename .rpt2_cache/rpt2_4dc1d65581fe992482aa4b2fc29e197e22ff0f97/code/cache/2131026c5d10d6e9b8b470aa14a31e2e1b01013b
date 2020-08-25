@@ -1,0 +1,4 @@
+{
+  "code": "var GameLogicProcessingManager = (function () {\r\n    function GameLogicProcessingManager() {\r\n    }\r\n    GameLogicProcessingManager.getInstance = function () {\r\n        if (!this.instance) {\r\n            this.instance = new GameLogicProcessingManager();\r\n        }\r\n        return this.instance;\r\n    };\r\n    GameLogicProcessingManager.GetCurTime = function () {\r\n        return Laya.Browser.now();\r\n    };\r\n    Object.defineProperty(GameLogicProcessingManager.prototype, \"PSRecoveryOpen\", {\r\n        get: function () {\r\n            return this.bPSRecoveryOpen;\r\n        },\r\n        set: function (b) {\r\n            this.bPSRecoveryOpen = b;\r\n        },\r\n        enumerable: true,\r\n        configurable: true\r\n    });\r\n    return GameLogicProcessingManager;\r\n}());\r\nexport default GameLogicProcessingManager;\r\n",
+  "references": []
+}

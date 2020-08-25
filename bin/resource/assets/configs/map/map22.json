@@ -1,0 +1,110 @@
+{
+    "skin": "KsLevelScene22.json",
+
+    "player": {
+        "url": "resource/assets/img/ani/level22/renwu22.sk",
+        "start": ["22-1","22-7","22-12"],
+        "status":{
+            "x":0,
+            "y":650,
+            "aniN":"22-2",
+            "loop":true
+        },
+        "x": 0,
+        "y": 650,
+        "tx":1000,
+        "ani": {
+            "22-1": {
+                "aniName": "22-1",
+                "next":"22-2"
+            },
+            "22-2": {
+                "aniName": "22-2",
+                "loop": true,
+                "pop": true
+            },
+            "22-3": {
+                "aniName": "22-3",
+                "isWin": 2
+            },
+            "22-4": {
+                "aniName": "22-4",
+                "next":"22-5" 
+            },
+            "22-5": {
+                "aniName": "22-5",
+                "next":"22-6" 
+            },
+            "22-6": {
+                "aniName": "22-6",
+                "next":"22-7"
+            },
+            "22-7": {
+                "aniName": "22-7",
+                "loop": true,
+                "pop": true
+            },
+            "22-8": {
+                "aniName": "22-8",
+                "isWin": 2
+            },
+            "22-9": {
+                "aniName": "22-9",
+                "next":"22-10"
+            },
+            "22-10": {
+                "aniName": "22-10",
+                "next":"22-11"
+            },
+
+            "22-11":{
+                "aniName": "22-11",
+                "next":"22-12"
+            },
+            
+            "22-12":{
+                "aniName": "22-12",
+                "loop": true,
+                "pop": true
+            },
+
+            "22-13":{
+                "aniName": "22-13",
+                "isWin": 2
+            },
+
+            "22-14":{
+                "aniName": "22-14",
+                "next":"22-15"
+            },
+
+            "22-15":{
+                "aniName": "22-15",
+                "isWin": 1
+            }
+        },
+        "choose": [
+            {
+                "chooseLeftName": "22-3",
+                "chooseRightName": "22-4",
+                "rightName": "22-4",
+                "icon_chooseLeft": "22/icon22_1",
+                "icon_chooseRight": "22/icon22_2"
+            },
+            {
+                "chooseLeftName": "22-8",
+                "chooseRightName": "22-9",
+                "rightName": "22-9",
+                "icon_chooseLeft": "22/icon22_5",
+                "icon_chooseRight": "22/icon22_3"
+            },
+            {
+                "chooseLeftName": "22-13",
+                "chooseRightName": "22-14",
+                "rightName": "22-14",
+                "icon_chooseLeft": "22/icon22_4",
+                "icon_chooseRight": "22/icon22_1"
+            }
+        ]
+    }
+}

@@ -1,0 +1,124 @@
+{
+    "skin": "KsLevelScene30.json",
+    "bg": {
+        "type": 1,
+        "move": [
+            {"x":-900,"t": 1600},
+            {"x":-1800,"t": 1600}
+        ]
+    },
+    "monkey": {
+        "url":"resource/assets/img/ani/level30/houzi30.sk",
+        "x": 800,
+        "y": 1150
+    },
+
+    "player": {
+        "url": "resource/assets/img/ani/level30/renwu30.sk",
+        "start": ["30-1","30-8","30-12"],
+        "status": {
+            "x": 0,
+            "y": 1200,
+            "aniN": "30-1",
+            "loop": true
+        },
+        "x": 0,
+        "y": 1200,
+        "move": [
+            {"x":300,"t": 1670},
+            {"x":1000,"t": 1600},
+            {"x":1900,"t": 1600},
+            {"x":3000,"t": 1700}
+        ],
+        "ani": {
+            "30-1": {
+                "aniName": "30-1",
+                "next":"30-2"
+            },
+            "30-2": {
+                "aniName": "30-2",
+                "next":"30-3"
+            },
+            "30-3": {
+                "aniName": "30-3",
+                "loop": true,
+                "pop": true
+            },
+            "30-4": {
+                "aniName": "30-4",
+                "isWin": 2
+            },
+            "30-5": {
+                "aniName": "30-5",
+                "next":"30-6" 
+            },
+            "30-6": {
+                "aniName": "30-6",
+                "next":"30-8" 
+            },
+            "30-7": {
+                "aniName": "30-7",
+                "next":"30-8"
+            },
+            "30-8": {
+                "aniName": "30-8",
+                "loop": true,
+                "pop": true
+            },
+            "30-9": {
+                "aniName": "30-9",
+                "isWin": 2
+            },
+            "30-10": {
+                "aniName": "30-10",
+                "next":"30-11"
+            },
+            "30-11": {
+                "aniName": "30-11",
+                "next":"30-12"
+            },
+            "30-12": {
+                "aniName": "30-12",
+                "loop": true,
+                "pop": true
+            },
+            "30-13":{
+                "aniName": "30-13",
+                "isWin": 2
+            },
+            "30-14":{
+                "aniName": "30-14",
+                "isWin": 1
+            },
+            "30-15":{
+                "aniName": "30-15",
+                "isWin": 1
+            }
+        },
+        "choose": [
+            {
+                "chooseLeftName": "30-4",
+                "chooseRightName": "30-5",
+                "rightName": "30-5",
+                "icon_chooseLeft": "30/icon30_2",
+                "icon_chooseRight": "30/icon30_1"
+            },
+            {
+                "chooseLeftName": "30-10",
+                "chooseRightName": "30-9",
+                "rightName": "30-10",
+                "icon_chooseLeft": "30/icon30_3",
+                "icon_chooseRight": "30/icon30_4"
+            },
+            {
+                "chooseLeftName": "30-13",
+                "chooseRightName": "30-14",
+                "rightName": "30-14",
+                "icon_chooseLeft": "30/icon30_5",
+                "icon_chooseRight": "30/icon30_6",
+                "superName":"30-15",
+                "icon_super": "30/icon30_7"
+            }
+        ]
+    }
+}

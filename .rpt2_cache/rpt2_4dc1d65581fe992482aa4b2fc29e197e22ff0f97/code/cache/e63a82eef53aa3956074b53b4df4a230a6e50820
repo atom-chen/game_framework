@@ -1,0 +1,6 @@
+{
+  "code": "import { EnterGameType } from \"./CommonDefine\";\r\nvar GameStateManager = (function () {\r\n    function GameStateManager() {\r\n        this.nLevelState = EnterGameType.enum_EnterGameType_GameHome;\r\n    }\r\n    GameStateManager.getInstance = function () {\r\n        if (!this.instance) {\r\n            this.instance = new GameStateManager();\r\n        }\r\n        return this.instance;\r\n    };\r\n    Object.defineProperty(GameStateManager.prototype, \"levelState\", {\r\n        get: function () {\r\n            return this.nLevelState;\r\n        },\r\n        set: function (nState) {\r\n            this.nLevelState = nState;\r\n        },\r\n        enumerable: true,\r\n        configurable: true\r\n    });\r\n    return GameStateManager;\r\n}());\r\nexport default GameStateManager;\r\n",
+  "references": [
+    "F:/gitpro/ecy_game_framework/game_framework_ecy/game_framework_ecy/src/script/games/CommonDefine.ts"
+  ]
+}

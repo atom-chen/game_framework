@@ -1,0 +1,95 @@
+{
+    "skin": "KsLevelScene7.json",
+    "huoyan": {
+        "type": 1,
+        "ani": {
+            "url": "resource/assets/img/ani/level7/huoyan.sk"
+        },
+        "x": 250,
+        "y": 1050
+    },
+    "sashui": {
+        "ani": {
+            "url": "resource/assets/img/ani/level7/sashui.sk"
+        },
+        "x": 1780,
+        "y": 1120
+    },
+    "player": {
+        "url": "resource/assets/img/ani/level7/renwu.sk",
+        "start": [ "7-1","7-4","7-7" ],
+        "status":{
+            "x":150,
+            "y":550,
+            "aniN":"7-1",
+            "loop":true
+        },
+        "x": 150,
+        "y": 550,
+        "tx":300,
+        "ani": {
+            "7-1": {
+                "aniName": "7-1",
+                "loop": true,
+                "pop": true
+            },
+            "7-2": {
+                "aniName": "7-2",
+                "isWin": 2
+            },
+            "7-3": {
+                "aniName": "7-3",
+                "next": "7-4"
+            },
+            "7-4": {
+                "aniName": "7-4",
+                "loop": true,
+                "pop": true
+            },
+            "7-5": {
+                "aniName": "7-5",
+                "isWin": 2
+            },
+            "7-6": {
+                "aniName": "7-6",
+                "next": "7-7"
+            },
+            "7-7": {
+                "aniName": "7-7",
+                "loop": true,
+                "pop": true
+            },
+            "7-8": {
+                "aniName": "7-8",
+                "isWin": 2
+            },
+            "7-9": {
+                "aniName": "7-9",
+                "isWin": 1
+            }
+        },
+        "choose": [
+            {
+                "chooseLeftName": "7-2",
+                "chooseRightName": "7-3",
+                "rightName": "7-3",
+                "icon_chooseLeft": "07/icon7_4",
+                "icon_chooseRight": "07/icon7_3"
+            },
+            {
+                "chooseLeftName": "7-6",
+                "chooseRightName": "7-5",
+                "rightName": "7-6",
+                "icon_chooseLeft": "07/icon7_6",
+                "icon_chooseRight": "07/icon7_1"
+            },
+            {
+                "chooseLeftName": "7-8",
+                "chooseRightName": "7-9",
+                "rightName": "7-9",
+                "icon_chooseLeft": "07/icon7_2",
+                "icon_chooseRight": "07/icon7_5"
+            }
+        ]
+    }
+}

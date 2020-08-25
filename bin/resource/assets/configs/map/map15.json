@@ -1,0 +1,90 @@
+{
+    "skin": "KsLevelScene15.json",
+    "heipao":{
+        "url":"resource/assets/img/ani/level15/heipao.sk",
+        "x":250,
+        "y":450
+    },
+    
+    "player": {
+        "url": "resource/assets/img/ani/level15/renwu15.sk",
+        "start": ["15-1","15-4","15-8"],
+        "status":{
+            "x":0,
+            "y":500,
+            "aniN":"15-1",
+            "loop":true
+        },
+        "x": 0,
+        "y": 800,
+        "tx":1000,
+        "ani": {
+            "15-1": {
+                "aniName": "15-1",
+                "loop": true,
+                "pop": true
+            },
+            "15-2": {
+                "aniName": "15-2",
+                "isWin": 2
+            },
+            "15-3": {
+                "aniName": "15-3",
+                "next":"15-4"
+            },
+            "15-4": {
+                "aniName": "15-4",
+                "loop": true,
+                "pop": true
+            },
+            "15-5": {
+                "aniName": "15-5",
+                "next":"15-8"
+            },
+            "15-6": {
+                "aniName": "15-6",
+                "next":"15-7"
+            },
+            "15-7": {
+                "aniName": "15-7",
+                "isWin": 2
+            },
+            "15-8": {
+                "aniName": "15-8",
+                "loop": true,
+                "pop": true
+            },
+            "15-9": {
+                "aniName": "15-9",
+                "isWin": 2
+            },
+            "15-10": {
+                "aniName": "15-10",
+                "isWin": 1
+            }
+        },
+        "choose": [
+            {
+                "chooseLeftName": "15-2",
+                "chooseRightName": "15-3",
+                "rightName": "15-3",
+                "icon_chooseLeft": "15/icon15_1",
+                "icon_chooseRight": "15/icon15_2"
+            },
+            {
+                "chooseLeftName": "15-5",
+                "chooseRightName": "15-6",
+                "rightName": "15-5",
+                "icon_chooseLeft": "15/icon15_3",
+                "icon_chooseRight": "15/icon15_4"
+            },
+            {
+                "chooseLeftName": "15-9",
+                "chooseRightName": "15-10",
+                "rightName": "15-10",
+                "icon_chooseLeft": "15/icon15_5",
+                "icon_chooseRight": "15/icon15_6"
+            }
+        ]
+    }
+}

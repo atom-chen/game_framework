@@ -1,0 +1,26 @@
+{
+    "miniZipUrl": "https://package.32yx.com/ecy_game_small/laya/fruits/qq_res/qq_res_v_z_4_3/resource.zip",
+    "miniZipVersion": "qq_res_v_z_1_0",
+    "appResInfo": "res.v.z.1.1",
+    "serverConf": "wts",
+    "isOpen": true,
+    "gameId": "1049_1050",
+    "platform": "wx_qq_tt",
+    "versionCode": "1001",
+    "token":"c253f698f6c0dd7bb3febe94a7b984fe",
+    "gameInfo": {
+        "bannerId": ["476ea007d88c1bd209a27cd68d315a02"],
+        "videoId": ["cacc94b0ab8b964f9852b3eaf9981f70"],
+        "longVideoId":[""],
+        "boxId":["3ead0eed1a67b059e8aec917fd623acf"],
+		"InterstitialAd":"",
+        "openPsAward":0,
+        "succShowBox":1,
+        "isDY":0,
+        "double":0,
+		"region":["成都市","深圳市"],
+		"isaiqiyi":1,
+        "binnertime":20000,
+        "ttPsClose":false
+    }
+}

@@ -1,0 +1,119 @@
+{
+    "skin": "KsLevelScene8.json",
+    "bg": {
+        "type": 1,
+        "ani": {}
+    },
+    "laoshu":{
+        "url":"resource/assets/img/ani/level8/laoshu8.sk",
+        "x":1080,
+        "y":1270,
+        "toX":1480
+    },
+    "player": {
+        "url": "resource/assets/img/ani/level8/renwu8.sk",
+        "start": [
+            "8-1",
+            "8-7",
+            "8-12"
+        ],
+        "status":{
+            "x":-300,
+            "y":700,
+            "aniN":"8-2",
+            "loop":true
+        },
+        "x": 0,
+        "y": 700,
+        "ani": {
+            "8-1": {
+                "aniName": "8-1",
+                "next": "8-2"
+            },
+            "8-2": {
+                "aniName": "8-2",
+                "loop":true,
+                "pop":true
+            },
+            "8-3": {
+                "aniName": "8-3",
+                "isWin": 2
+            },
+            "8-4": {
+                "aniName": "8-4",
+                "next": "8-5"
+            },
+            "8-5": {
+                "aniName": "8-5",
+                "next": "8-6"
+            },
+            "8-6": {
+                "aniName": "8-6",
+                "next": "8-7"
+            },
+            "8-7": {
+                "aniName": "8-7",
+                "popTime": 3,
+                "loop": true,
+                "pop": true
+            },
+            "8-8": {
+                "aniName": "8-8",
+                "isWin": 2
+            },
+            "8-9": {
+                "aniName": "8-9",
+                "next": "8-10"
+            }, 
+            "8-10": {
+                "aniName": "8-10",
+                "next": "8-11"
+            }, 
+            "8-11": {
+                "aniName": "8-11",
+                "next": "8-12"
+            }, 
+            "8-12": {
+                "aniName": "8-12",
+                "popTime": 4,
+                "loop": true,
+                "pop": true
+            },
+            "8-13": {
+                "aniName": "8-13",
+                "isWin": 2
+            },
+            "8-14": {
+                "aniName": "8-14",
+                "next": "8-15"
+            }, 
+            "8-15": {
+                "aniName": "8-15",
+                "isWin": 1
+            }
+        },
+        "choose": [
+            {
+                "chooseLeftName": "8-4",
+                "chooseRightName": "8-3",
+                "rightName": "8-4",
+                "icon_chooseLeft": "08/icon8_2",
+                "icon_chooseRight": "08/icon8_6"
+            },
+            {
+                "chooseLeftName": "8-8",
+                "chooseRightName": "8-9",
+                "rightName": "8-9",
+                "icon_chooseLeft": "08/icon8_3",
+                "icon_chooseRight": "08/icon8_5"
+            },
+            {
+                "chooseLeftName": "8-14",
+                "chooseRightName": "8-13",
+                "rightName": "8-14",
+                "icon_chooseLeft": "08/icon8_4",
+                "icon_chooseRight": "08/icon8_1"
+            }
+        ]
+    }
+}

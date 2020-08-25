@@ -1,0 +1,76 @@
+{
+    "skin": "KsLevelScene21.json",
+    "player": {
+        "url": "resource/assets/img/ani/level21/renwu21.sk",
+        "start": ["21-1","21-7"],
+        "status":{
+            "x":0,
+            "y":650,
+            "aniN":"21-1",
+            "loop":true
+        },
+        "x": 0,
+        "y": 650,
+        "tx":1000,
+        "ani": {
+            "21-1": {
+                "aniName": "21-1",
+                "next":"21-2"
+            },
+            "21-2": {
+                "aniName": "21-2",
+                "next":"21-3"
+            },
+            "21-3": {
+                "aniName": "21-3",
+                "loop": true,
+                "pop": true
+            },
+            "21-4": {
+                "aniName": "21-4",
+                "isWin": 2
+            },
+            "21-5": {
+                "aniName": "21-5",
+                "next":"21-6" 
+            },
+            "21-6": {
+                "aniName": "21-6",
+                "next":"21-7"
+            },
+            "21-7": {
+                "aniName": "21-7",
+                "loop": true,
+                "pop": true
+            },
+            "21-8": {
+                "aniName": "21-8",
+                "next":"21-9"
+            },
+            "21-9": {
+                "aniName": "21-9",
+                "isWin": 1
+            },
+            "21-10": {
+                "aniName": "21-10",
+                "isWin": 2
+            }
+        },
+        "choose": [
+            {
+                "chooseLeftName": "21-4",
+                "chooseRightName": "21-5",
+                "rightName": "21-5",
+                "icon_chooseLeft": "21/icon21_2",
+                "icon_chooseRight": "21/icon21_1"
+            },
+            {
+                "chooseLeftName": "21-8",
+                "chooseRightName": "21-10",
+                "rightName": "21-8",
+                "icon_chooseLeft": "21/icon21_3",
+                "icon_chooseRight": "21/icon21_4"
+            }
+        ]
+    }
+}

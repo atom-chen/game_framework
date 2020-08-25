@@ -1,0 +1,100 @@
+{
+    "skin": "KsLevelScene12.json",
+    "bg": {
+        "type": 1,
+        "ani": { }
+    },
+    "huo":{
+        "url":"resource/assets/img/ani/level12/huo.sk",
+        "x":2160,
+        "y":1200
+    },
+    "men":{
+        "url":"resource/assets/img/ani/level12/men.sk",
+        "x":2230,
+        "y":1180
+    },
+    "bianfu":{
+        "url":"resource/assets/img/ani/level12/bianfu.sk",
+        "x":2760,
+        "y":1200,
+        "tx":2160
+    },
+    "player": {
+        "url": "resource/assets/img/ani/level12/renwu.sk",
+        "start": ["12-1","12-4","12-7"],
+        "status":{
+            "x":50,
+            "y":700,
+            "aniN":"12-1",
+            "loop":true
+        },
+        "x": 120,
+        "y": 700,
+        "tx":1000,
+        "ani": {
+            "12-1": {
+                "aniName": "12-1",
+                "loop": true,
+                "pop": true
+            },
+            "12-2": {
+                "aniName": "12-2",
+                "isWin": 2
+            },
+            "12-3": {
+                "aniName": "12-3",
+                "next":"12-4"
+            },
+            "12-4": {
+                "aniName": "12-4",
+                "loop": true,
+                "pop": true
+            },
+            "12-5": {
+                "aniName": "12-5",
+                "isWin": 2
+            },
+            "12-6": {
+                "aniName": "12-6",
+                "next":"12-7"
+            },
+            "12-7": {
+                "aniName": "12-7",
+                "loop": true,
+                "pop": true
+            },
+            "12-8": {
+                "aniName": "12-8",
+                "isWin": 2
+            },
+            "12-9": {
+                "aniName": "12-9",
+                "isWin": 1
+            }
+        },
+        "choose": [
+            {
+                "chooseLeftName": "12-3",
+                "chooseRightName": "12-2",
+                "rightName": "12-3",
+                "icon_chooseLeft": "12/icon12_6",
+                "icon_chooseRight": "12/icon12_3"
+            },
+            {
+                "chooseLeftName": "12-5",
+                "chooseRightName": "12-6",
+                "rightName": "12-6",
+                "icon_chooseLeft": "12/icon12_4",
+                "icon_chooseRight": "12/icon12_5"
+            },
+            {
+                "chooseLeftName": "12-8",
+                "chooseRightName": "12-9",
+                "rightName": "12-9",
+                "icon_chooseLeft": "12/icon12_2",
+                "icon_chooseRight": "12/icon12_1"
+            }
+        ]
+    }
+}

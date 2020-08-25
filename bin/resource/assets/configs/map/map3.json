@@ -1,0 +1,60 @@
+{
+    "skin": "KsLevelScene3.json",
+    "bg": {
+        "type": 1,
+        "ani": {
+            "url": "resource/assets/img/ani/level3/renwu3.sk",
+            "x":0,
+            "y":600
+        }
+    },
+    "player": {
+        "url": "resource/assets/img/ani/level3/heipao3.sk",
+        "start": ["3-1zoulu"],
+        "status":{
+            "x":0,
+            "y":600,
+            "aniN":"3-2daiji",
+            "loop":true
+        },
+        "lx": 0,
+        "ex":200,
+        "y": 600,
+        "ani": {
+            "3-1zoulu": {
+                "aniName": "3-1zoulu",
+                "next": "3-2daiji"
+            },
+            "3-2daiji": {
+                "aniName": "3-2daiji",
+                "next":"3-3shifa"
+            },
+            "3-3shifa": {
+                "aniName": "3-3shifa",
+                "next":"3-4shifa"
+            },
+            "3-4shifa": {
+                "aniName": "3-4shifa",
+                "pop": true,
+                "loop":true
+            },
+            "3-5shifa": {
+                "aniName": "3-5shifa",
+                "pop": false,
+                "isWin": 2
+            },
+            "3-7shifa": {
+                "aniName": "3-7shifa",
+                "pop": false,
+                "isWin": 1
+            }
+        },
+        "choose": [{
+            "chooseLeftName": "3-5shifa",
+            "chooseRightName": "3-7shifa",
+            "rightName": "3-7shifa",
+            "icon_chooseLeft": "03/icon3_2",
+            "icon_chooseRight": "03/icon3_1"
+        }]
+    }
+}

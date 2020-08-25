@@ -1,0 +1,1 @@
+{"type":"Scene","props":{"width":200,"height":240},"compId":2,"child":[{"type":"Image","props":{"y":3,"x":0,"width":200,"var":"imageIcon","height":200,"centerX":0},"compId":6},{"type":"Label","props":{"y":0,"x":0,"var":"lableGameName","text":"小游戏名称","fontSize":35,"color":"#805020","centerX":0,"bottom":0},"compId":7}],"loadList":[],"loadList3D":[]}
